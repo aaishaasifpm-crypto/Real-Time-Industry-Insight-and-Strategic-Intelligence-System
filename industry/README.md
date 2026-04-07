@@ -57,7 +57,6 @@ Real-Time-Industry-Insight-and-Strategic-Intelligence-System/
 │   ├── mcp_server.py         # MCP backend server
 │   ├── pdf_report.py         # Report generation
 │
-├── README.md                 # Main project documentation
 ```
 
 ## ⚙️ How It Works
