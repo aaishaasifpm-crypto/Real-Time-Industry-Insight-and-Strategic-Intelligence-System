@@ -35,5 +35,3 @@ def get_brand_data(brand_name: str, product_type: str = "shoes") -> list:
 
 if __name__ == "__main__":
     mcp.run()
-
-
