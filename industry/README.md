@@ -44,19 +44,20 @@ Real-Time-Industry-Insight-and-Strategic-Intelligence-System/
 
 │
 ├── industry/                 # Main application code
+│   ├── .devcontainer/        # Dev container configuration
+│   │   └── devcontainer.json
+│   │
+│   ├── README.md             # Module-level documentation
 │   ├── app.py                # Streamlit UI
-│   ├── main.py               # Entry point
 │   ├── ai_engine.py          # AI analysis logic
 │   ├── chat_module.py        # Chat assistant
-│   ├── compclient.py         # API client handling
-│   ├── compserver.py         # Comparison processing
+│   ├── compareclient.py      # API client handling
+│   ├── compareserver.py      # Comparison processing
+│   ├── debug_mcp.py          # Debugging utilities
 │   ├── mcp_server.py         # MCP backend server
 │   ├── pdf_report.py         # Report generation
-│   ├── debug_mcp.py          # Debugging utilities
-│   ├── promptclient.py       # Prompt handling
-│   ├── promptserver.py       # Prompt backend
 │
-
+├── README.md                 # Main project documentation
 ```
 
 ## ⚙️ How It Works
