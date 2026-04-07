@@ -2,7 +2,7 @@ import asyncio
 from fastmcp import Client
 
 async def run_comparison():
-    async with Client("compareserver.py") as client:
+    async with Client("industry/compserver.py") as client:
         nike_data = await client.call_tool("get_brand_data", {"brand_name": "nike"})
         puma_data = await client.call_tool("get_brand_data", {"brand_name": "puma"})
 
