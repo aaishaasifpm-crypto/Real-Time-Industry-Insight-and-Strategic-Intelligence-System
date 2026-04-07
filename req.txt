@@ -1,0 +1,15 @@
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langgraph
+wikipedia
+dotenv
+pandas
+streamlit
+serpapi
+google-search-results
+httpx
+requests
+mcp
+fastmcp
